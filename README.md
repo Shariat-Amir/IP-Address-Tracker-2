@@ -10,7 +10,11 @@ Features
     Responsive design for 375px and 1440px screen widths.
 
 
+Live Demo
 
+Check out the live demo of the application on Vercel:
+
+IP Address Tracker on Vercel
 
 Dependencies
 
