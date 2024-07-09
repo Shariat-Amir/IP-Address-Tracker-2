@@ -62,7 +62,9 @@ const MapComponent = () => {
        </button>
         </div>
       </form>
+      {error && <p className='text-red-500 absolute top-52  w-full text-center'>{error}</p>}
         </div>
+      
         <div className='bg-white  absolute desktop:min-h-16 font-bold tracking-widest flex flex-col desktop:flex-row  gap-4 desktop:gap-20 justify-center items-center z-10   top-52  desktop:top-60 px-12 py-4 w-[80%] rounded-lg shadow-md'>
             <div className='text-center'>
             <p className='text-Dark-Gray text-xs '>IP ADDRESS</p>
@@ -87,7 +89,7 @@ const MapComponent = () => {
             
         </div>
         <div className='z-0 w-full h-screen '>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
+       
       <MapContainer center={position}  zoom={13} style={{ height: "600px", width: "100%" }}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
