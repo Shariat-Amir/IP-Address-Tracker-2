@@ -1,4 +1,5 @@
 IP Address Tracker
+![IP Address Tracker](public/images/pattern-bg-desktop.png)
 
 This is a responsive React application that tracks the geolocation of an IP address and displays the location on a map. The application uses the IP-API service to fetch geolocation data and Leaflet for the map display. It is designed to be responsive for screen widths of 375px (mobile devices) and 1440px (desktop).
 Features
