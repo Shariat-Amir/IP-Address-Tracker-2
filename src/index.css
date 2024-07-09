@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+    font-family: Rubik;
+    src: url('/fonts/Rubik-VariableFont_wght.ttf');
+  }
+}
